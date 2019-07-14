@@ -16,5 +16,14 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <!-- Medium Text Style -->
+    <style name="TextMedium" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/aldrich</item>
+    </style>
+
+    <style name="TextSmall" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:fontFamily">@font/aldrich</item>
+        <item name="android:textColor">@color/colorSecondaryText</item>
+    </style>
 
 </resources>

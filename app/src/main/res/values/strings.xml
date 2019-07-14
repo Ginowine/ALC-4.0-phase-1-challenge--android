@@ -3,4 +3,11 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_about_alc">About ALC</string>
     <string name="title_activity_my_profile">My Profile</string>
+    <string name="my_name">Gino Osahon</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="track">Track: Android Track</string>
+    <string name="country">Country: Nigeria</string>
+    <string name="email_address">Email: ginowine1@gmail.com</string>
+    <string name="phone_number">Phone Number: +2348073336523</string>
+    <string name="slack_username">Slack Username: @Ginowine</string>
 </resources>
