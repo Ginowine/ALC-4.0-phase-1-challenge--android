@@ -1,5 +1,6 @@
 package com.example.alc40phase1challenge_android;
 
+import android.content.Intent;
 import android.net.http.SslError;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -21,6 +22,16 @@ public class AboutALC extends AppCompatActivity {
         setContentView(R.layout.activity_about_alc);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(AboutALC.this, MainActivity.class));
+                finish();
+            }
+        });
 
         aboutUsWebView = (WebView) findViewById(R.id.aboutus_webview);
 
