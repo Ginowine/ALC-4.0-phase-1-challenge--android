@@ -17,7 +17,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:text="Welcome to ALC 4.0"
+
+        android:text="@string/welcome_page"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,11 +26,16 @@
 
     <Button
         android:id="@+id/about_us_button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
         android:layout_marginTop="100dp"
-        android:background="@android:color/holo_orange_dark"
-        android:text="About ALC"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@drawable/rounded_corners"
+        android:text="@string/about_alc_button"
+
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="@+id/welcome_textView"
         app:layout_constraintStart_toStartOf="@+id/welcome_textView"
@@ -40,8 +46,9 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:background="@android:color/holo_orange_dark"
-        android:text="My Profile "
+        
+        android:background="@drawable/rounded_corners"
+        android:text="@string/my_profile"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="@+id/welcome_textView"
         app:layout_constraintStart_toStartOf="@+id/welcome_textView"

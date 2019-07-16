@@ -10,4 +10,7 @@
     <string name="email_address">Email: ginowine1@gmail.com</string>
     <string name="phone_number">Phone Number: +2348073336523</string>
     <string name="slack_username">Slack Username: @Ginowine</string>
+    <string name="welcome_page">Welcome to ALC 4.0</string>
+    <string name="about_alc_button">About ALC</string>
+    <string name="my_profile">My Profile </string>
 </resources>
